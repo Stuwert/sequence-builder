@@ -1,0 +1,60 @@
+body{
+  width: 750px;
+}
+
+nav{
+  width: 200px;
+  overflow-y: scroll;
+  background-color: grey;
+  position: relative;
+  height: 95vh;
+  float: left;
+}
+p{
+  position: fixed;
+  width: 180px;
+  height: 100px;
+  background-color: grey;
+  margin: 0;
+}
+i{
+  color: white;
+  position: fixed;
+  top: 10px;
+  left: 65px;
+}
+
+nav .sequence{
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  margin-left: 20px;
+}
+
+.sequence {
+  background-color: black;
+}
+
+nav .sequence:first-of-type{
+  margin-top: 100px;
+}
+
+main{
+  width: 500px;
+  height: 95vh;
+  background-color: red;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+main .sequence {
+  width: 250px;
+  height: 250px;
+}
+
+main.sequence:first-of-type{
+  align-self: flex-start;
+}
