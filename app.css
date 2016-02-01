@@ -44,15 +44,14 @@ main{
   height: 95vh;
   background-color: red;
   float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;;
   align-items: center;
+  overflow-y: scroll;
 }
 
 main .sequence {
   width: 250px;
   height: 250px;
+  margin: 125px;
 }
 
 main.sequence:first-of-type{
